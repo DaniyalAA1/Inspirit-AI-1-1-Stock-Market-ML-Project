@@ -81,6 +81,8 @@ This repo contains 5 notebooks, each running the full pipeline (data collection 
 
 Each notebook is self-contained and can be run independently in Google Colab.
 
+`AI_1_1.ipynb` is the original notebook (Goldman Sachs) submitted alongside the published paper, kept unchanged for reference/provenance. `GS_Goldman_Sachs.ipynb` is a re-run of the same pipeline for consistency with the other 4 company notebooks' naming.
+
 **Note on reproducibility**: `yfinance` pulls a rolling 5-year window of live data, and models like MLP involve randomized initialization, so re-running these notebooks will produce numbers that differ slightly from run to run and from the results reported in the published paper. The paper's tables reflect the results at the time of writing; these notebooks demonstrate the reproducible pipeline.
 
 ## Publication
